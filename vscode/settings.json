@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "liveshare.featureSet": "insiders",
+    "editor.formatOnPaste": true,
+    "workbench.panel.defaultLocation": "right",
+    "editor.codeActionsOnSave": {}
+}
