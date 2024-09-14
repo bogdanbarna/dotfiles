@@ -29,6 +29,7 @@ git config --global alias.lol "log --graph --oneline --decorate"
 git config --global alias.commit "commit -s"
 git config --global color.ui true
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global init.defaultBranch "main"
 
 cat >> ~/.gitconfig << EOF
 # This is Git's per-user configuration file.
