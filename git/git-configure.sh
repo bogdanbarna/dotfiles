@@ -22,6 +22,7 @@ gpg --list-secret-keys --keyid-format LONG
 gpg --armor --export "$(gpg --list-secret-keys --keyid-format LONG | grep sec | cut -d'/' -f2 | cut -d' ' -f1)"
 git config --global gpg.program gpg
 git config --global commit.gpgsign true
+git config --global branch.sort -committerdate
 
 # Complete git configuration
 git config --global alias.lol "log --graph --oneline --decorate"
